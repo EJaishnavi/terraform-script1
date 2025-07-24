@@ -8,7 +8,7 @@ key_name = "Mahadev"
 availability_zone = "us-east-1a"
 vpc_security_group_ids = "sg-0d31b7d6f4c99f15e"
 root_block_device{
-volume_size = 25
+volume_size = 20
 }
 count = 1
 }
