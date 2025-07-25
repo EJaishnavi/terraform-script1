@@ -1,8 +1,8 @@
 pipeline{
 agent any
-  tools {
-        terraform 'terraform-1.7.1'  // Matches the name in Global Tool Config
-    }
+  #tools {
+   #     terraform 'terraform-1.7.1'  // Matches the name in Global Tool Config
+    #}
 environment{
 ACCESS_KEY = credentials('access_key')
 SECRET_KEY = credentials('secret_key')
